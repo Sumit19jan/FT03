@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#551947"
+        android:layout_height="400dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fly to Seoul"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:drawableStart="@drawable/ic_vector__33_"
+            android:drawablePadding="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 Adult, Economy"
+            android:textSize="15sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:drawableStart="@drawable/ic_vector__34_"
+            android:drawablePadding="20dp"
+            android:textColor="@color/white"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:layout_height="2dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seoul, Korea"
+            android:textSize="15sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:drawableStart="@drawable/ic_vector__35_"
+            android:drawablePadding="20dp"
+            android:textColor="@color/white"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:layout_height="2dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Destination"
+            android:textSize="15sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:drawableStart="@drawable/ic_vector__37_"
+            android:drawablePadding="20dp"
+            android:textColor="@color/white"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:layout_height="2dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Dates"
+            android:textSize="15sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:drawableStart="@drawable/ic_vector__36_"
+            android:drawablePadding="20dp"
+            android:textColor="@color/white"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:layout_height="2dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore flights by destination"
+        android:textStyle="bold"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Khumbu Valley, Nepal \nNonStop - 5h 16m+"
+        android:textColor="#000000"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/khumbu_valley"
+        android:drawablePadding="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:padding="10dp"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maldives, South Asia \nNonStop - 8h 24m+"
+        android:textColor="#000000"
+        android:layout_marginStart="20dp"
+        android:drawableStart="@drawable/maldives"
+        android:drawablePadding="10dp"/>
+
+</LinearLayout>
