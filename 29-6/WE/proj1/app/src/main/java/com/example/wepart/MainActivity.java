@@ -20,12 +20,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onSaveInstanceState(@NonNull Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putString("key", (String) mTvText.getText());
+        outState.putString("key", "Screen Rotaed");
     }
 
     @Override
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        savedInstanceState.getString("key");
+        mTvText.setText(savedInstanceState.getString("key"));
     }
 }
