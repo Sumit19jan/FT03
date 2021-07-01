@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_50"
+        android:text="@string/schedule_meeting_text"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/sp_22" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_40"
+        android:text="@string/name_ytext"
+        android:textSize="@dimen/sp_20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="@string/nrupul_dev_text"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_22" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="@dimen/sp_20"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tue_22_december_2020_text"
+            android:textColor="@color/black"
+            android:background="@drawable/rec_bg"
+            android:textSize="@dimen/sp_15"
+            android:padding="@dimen/dp_10"
+            android:layout_margin="@dimen/dp_20"/>
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11:30am"
+            android:textColor="@color/black"
+            android:background="@drawable/rec_bg"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/sp_15"
+            android:padding="@dimen/dp_10"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="@dimen/dp_20"/>
+
+        <TextView
+            android:id="@+id/tvInvite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="People to invite"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/sp_15"
+            android:textStyle="bold"
+            android:layout_below="@id/tvDate"
+            android:layout_marginStart="@dimen/dp_20" />
+
+        <TextView
+            android:id="@+id/tvPrateek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prateek"
+            android:layout_below="@id/tvInvite"
+            android:layout_marginStart="@dimen/dp_20"
+            android:textSize="@dimen/sp_15"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/ivSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search"
+            android:layout_alignEnd="@id/tvPrateek"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/dp_100"
+            android:layout_marginEnd="@dimen/dp_30"/>
+
+        <View
+            android:id="@+id/vBelowPrateek"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/sp_20"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:layout_below="@id/tvPrateek"
+            android:background="@android:color/darker_gray" />
+
+        <ImageView
+            android:id="@+id/ivParteek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/prateek_sukla"
+            android:layout_below="@id/vBelowPrateek"
+            android:layout_margin="@dimen/dp_20"/>
+
+        <ImageView
+            android:id="@+id/icJeff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/jeff"
+            android:layout_below="@id/vBelowPrateek"
+            android:layout_margin="@dimen/dp_20"
+            android:layout_toEndOf="@id/ivParteek" />
+
+        <View
+            android:id="@+id/vBelowIvPrateek"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/sp_20"
+            android:layout_marginTop="@dimen/dp_50"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:layout_below="@id/ivParteek"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tvPrateekSukla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prateeksukla_text"
+            android:textSize="@dimen/sp_15"
+            android:textColor="@color/black"
+            android:layout_below="@id/vBelowIvPrateek"
+            android:layout_marginTop="@dimen/dp_40"
+            android:layout_marginStart="@dimen/dp_40"
+            android:drawableStart="@drawable/prateek_sukla"
+            android:drawablePadding="@dimen/dp_20" />
+
+        <View
+            android:id="@+id/v2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@android:color/darker_gray"
+            android:layout_marginStart="@dimen/dp_40"
+            android:layout_marginEnd="@dimen/dp_40"
+            android:layout_below="@id/tvPrateekSukla"/>
+
+        <TextView
+            android:id="@+id/tvJeff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jezz_bezoz_text"
+            android:textSize="@dimen/sp_15"
+            android:textColor="@color/black"
+            android:layout_below="@id/v2"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginStart="@dimen/dp_40"
+            android:drawableStart="@drawable/jeff"
+            android:drawablePadding="@dimen/dp_20" />
+
+        <View
+            android:id="@+id/v3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@android:color/darker_gray"
+            android:layout_marginStart="@dimen/dp_40"
+            android:layout_marginEnd="@dimen/dp_40"
+            android:layout_below="@id/tvJeff"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notify_people_on_slack_text"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_10"
+        android:drawableEnd="@drawable/slack"
+        android:drawablePadding="@dimen/dp_10" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginStart="@dimen/dp_50"
+        android:text="Create Meeting"
+        android:textAllCaps="false" />
+</LinearLayout>
