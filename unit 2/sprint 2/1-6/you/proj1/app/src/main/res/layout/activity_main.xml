@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        style="@style/Layout_Height_Weight"
+        android:layout_gravity="center|end"
+        android:src="@drawable/cut" />
+
+    <ImageView
+        style="@style/Layout_Height_Weight"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_40"
+        android:src="@drawable/employee" />
+
+    <TextView
+        style="@style/Layout_Height_Weight"
+        android:layout_gravity="center"
+        android:padding="@dimen/dp_5"
+        android:text="@string/add_new_employee_text"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_22" />
+
+    <RelativeLayout
+        style="@style/Layout_Height_Weight"
+        android:layout_margin="@dimen/dp_20"
+        android:background="@drawable/rec_bg">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/Layout_Height_Weight"
+            android:text="@string/title_text"
+            android:drawableEnd="@drawable/options"
+            android:layout_margin="@dimen/dp_20"
+            android:drawablePadding="@dimen/dp_20"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_15" />
+
+        <TextView
+            android:id="@+id/tvFirstName"
+            style="@style/Layout_Height_Weight"
+            android:layout_below="@id/tvTitle"
+            android:text="@string/firstname_text"
+            android:drawableEnd="@drawable/jo"
+            android:layout_margin="@dimen/dp_20"
+            android:drawablePadding="@dimen/dp_20"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_15" />
+
+        <TextView
+            android:id="@+id/tvLastName"
+            style="@style/Layout_Height_Weight"
+            android:drawableEnd="@drawable/done"
+            android:text="@string/lastname_text"
+            android:layout_below="@id/tvFirstName"
+            android:layout_margin="@dimen/dp_20"
+            android:drawablePadding="@dimen/dp_20"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_15" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            style="@style/Layout_Height_Weight"
+            android:drawableEnd="@drawable/email"
+            android:text="@string/email_text"
+            android:layout_below="@id/tvLastName"
+            android:layout_margin="@dimen/dp_20"
+            android:drawablePadding="@dimen/dp_20"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_15" />
+    </RelativeLayout>
+</LinearLayout>

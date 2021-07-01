@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="add_new_employee_text">Add New Employee</string>
+    <string name="title_text">Title</string>
+    <string name="firstname_text">FirstName</string>
+    <string name="email_text">Email</string>
+    <string name="lastname_text">LastName</string>
+</resources>

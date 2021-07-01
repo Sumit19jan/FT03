@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Layout_Height_Weight">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style1 name="custom">
+        <item name="android:layout_margin">@dimen/dp_20</item>
+        <item name="android:drawablePadding">@dimen/dp_20</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style1>
+</resources>
