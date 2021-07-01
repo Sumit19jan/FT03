@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KakshaSignUp</string>
+    <string name="create_account_text">Create account</string>
+    <string name="alma_lawson_example_com_text">alma.lawson@example.com</string>
+    <string name="jane_cooper_text">Jane Cooper</string>
+    <string name="or_text">or</string>
+    <string name="continue_with_facebook_txt">Continue with facebook</string>
+    <string name="continue_with_google_txt">Continue with google</string>
+</resources>
