@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ConstraintLayouts</string>
+    <string name="login_txt">Login</string>
+    <string name="email_txt">Email</string>
+    <string name="password_txt">password</string>
+    <string name="use_phone_number_txt">Use phone number</string>
+    <string name="login_btn">Login</string>
+    <string name="forgot_password_txt">Forgot Password ?</string>
+    <string name="continue_with_facebook_txt">Continue with facebook</string>
+    <string name="continue_with_google_txt">Continue with google</string>
+</resources>
