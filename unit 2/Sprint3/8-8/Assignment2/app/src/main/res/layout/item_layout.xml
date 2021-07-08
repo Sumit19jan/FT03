@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="20dp"
+    android:background="@drawable/rect_bg"
+    android:elevation="10dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvCompanyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="MICROSOFT"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="80dp" />
+
+        <TextView
+            android:id="@+id/tvA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCompanyName"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_toEndOf="@id/ivImage"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Age :"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCompanyName"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_toEndOf="@id/tvA"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvA"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/ivImage"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Profession :"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvProfession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvA"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/tvP"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
