@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TaskManagement</string>
+    <string name="create_an_account_txt">Create an account</string>
+    <string name="already_have_an_account_txt">Already have an account?</string>
+    <string name="log_in_txt">Log in</string>
+    <string name="email_txt">Email</string>
+    <string name="enter_email_txt">Enter Email</string>
+    <string name="password_txt">Password</string>
+    <string name="enter_password_txt">Enter Password</string>
+    <string name="re_enter_password_txt">Re-Enter Password</string>
+    <string name="login_txt">Login</string>
+    <string name="forgot_your_password_txt">Forgot your password?</string>
+    <string name="hey_sofia_txt">Hey Sofia,</string>
+    <string name="welcome_back_txt">Welcome Back</string>
+    <string name="today_txt">Today</string>
+    <string name="meeting_with_omar_txt">Meeting with Omar</string>
+    <string name="_08_00_am_txt">08:00 AM</string>
+    <string name="webinar_on_gradle_api_txt">Webinar on Gradle API</string>
+    <string name="_01_00_pm_txt">01:00 PM</string>
+    <string name="tomorrow_txt">Tomorrow</string>
+    <string name="_14th_may_2021_txt">14th May 2021</string>
+    <string name="front_end_development_txt">Front End Development</string>
+    <string name="back_end_development_txt">Back End Development</string>
+</resources>
